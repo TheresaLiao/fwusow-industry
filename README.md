@@ -1,3 +1,3 @@
 # fwusow-industry
 福壽案
-* http://192.168.0.100/exports/floor.png
+* nginx sample url : http://192.168.0.100:10000/exports/floor.png
