@@ -7,5 +7,5 @@ docker run -it \
 --name samba \
 -v /deeplook_media/:/deeplook_media \
 -v /Deeplook_k8s/Deploy/Samba/conf/:/etc/samba/ \
--d theresaliao/samba:20200610 \
+-d aquamars00/samba:20200610 \
 -s "public;/share"
