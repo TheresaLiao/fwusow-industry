@@ -3,8 +3,9 @@ docker run -it \
 -p 138:138/udp \
 -p 139:139 \
 -p 445:445 \
+--restart=always \
 --name samba \
 -v /deeplook_media/:/deeplook_media \
 -v /Deeplook_k8s/Deploy/Samba/conf/:/etc/samba/ \
--d dperson/samba \
+-d theresaliao/samba:20200610 \
 -s "public;/share"
